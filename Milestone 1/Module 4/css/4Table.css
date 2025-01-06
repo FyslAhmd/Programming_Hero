@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+}
+th,td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px 10px;
+}
+caption {
+    font-weight: bold;
+    border: 2px solid black;
+}
