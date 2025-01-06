@@ -1,0 +1,12 @@
+.parent {
+    padding: 25px;
+    background-color: aliceblue;
+    display: flex;
+}
+.child {
+    border: 2px solid aquamarine;
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 20px;
+}
