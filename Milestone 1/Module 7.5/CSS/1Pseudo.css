@@ -1,0 +1,29 @@
+h3 {
+    color: tomato;
+}
+h3:hover {
+    color: green;
+    background-color: skyblue;
+}
+input:focus {
+    color: green;
+    padding-left: 20px;
+    outline: 0;
+    border: 2px solid purple;
+}
+a:visited {
+    color: gray;
+}
+
+li:last-child {
+    color: red;
+}
+li:first-child {
+    background-color: yellow;
+}
+li:nth-child(2n) {
+    font-size: 20px;
+}
+li:nth-child(2n+1) {
+    font-size: 10px;
+}
