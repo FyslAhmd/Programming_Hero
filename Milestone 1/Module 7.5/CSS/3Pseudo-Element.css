@@ -1,0 +1,20 @@
+h3::after {
+    content: '.pdf';
+    color: red;
+    font-size: 15px;
+}
+h3::before {
+    content: 'Start: ';
+    background-color: red;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: green;
+}
+p::first-line {
+    background-color: red;
+}
+::selection {
+    background-color: yellow;
+}
