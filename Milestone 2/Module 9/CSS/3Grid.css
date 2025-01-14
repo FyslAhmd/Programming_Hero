@@ -1,0 +1,17 @@
+
+.container {
+    font-size: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,100px) 50px 50px;
+}
+.box {
+    background-color: gray;
+}
+#box-1 {
+    grid-row: span 5;
+}
+#box-11 ,#box-12{
+    grid-column: span 3;
+}
