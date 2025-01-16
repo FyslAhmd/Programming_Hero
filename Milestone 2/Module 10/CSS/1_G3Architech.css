@@ -115,8 +115,44 @@ main > section {
     margin: 1.5rem 0 2rem 0;
 }
 
-
-
+/* facts section  */
+.facts {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8rem;
+}
+.facts-title {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.facts-description {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    max-width: 540px;
+    margin: 1.5rem 0 6.25rem;
+}
+.facts-number {
+    color: rgb(66, 66, 66);
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 10px 0 5px 0;
+}
+.fact-name {
+    color: rgb(114, 114, 114);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 
 /* responsive */
 @media screen and (max-width: 576px) {
@@ -137,6 +173,7 @@ main > section {
         padding: 20px;
     }
 }
+
 
 @media screen and (min-width:576.1px) and (max-width:992px) {
     .teams {
