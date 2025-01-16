@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", serif;
+}
+
+
+/* shared styles */
+.btn-primary {
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1.25rem;
+}
+
+/* header  */
+/* nav bar  */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.nav-links {
+    display: flex;
+    gap: 3rem;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.brand-name {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.banner,.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner  */
+.banner-contant {
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title {
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 5rem 0 1.5rem 0;
+}
+.banner-description {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-btn {
+    margin: 32px 0 50px 0;
+}
+.banner-img {
+    width: 100%;
+}
+
+/* responsive of header  */
+@media screen and (max-width: 576px) {
+    .navbar,
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
