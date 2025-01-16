@@ -84,3 +84,42 @@ header {
         gap: 20px;
     }
 }
+
+/* main section  */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section {
+    margin-top: 130px;
+}
+.teams {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features {
+    max-width: 530px;
+}
+.feature-title {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+#quick-list {
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+}
+#features {
+    color: rgb(255, 144, 14);
+}
+.feature-description {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    margin: 1.5rem 0 2rem 0;
+}
