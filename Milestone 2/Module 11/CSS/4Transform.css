@@ -1,0 +1,22 @@
+body {
+    margin-left: 50px;
+}
+.container,
+.inner {
+    width: 200px;
+    height: 200px;
+}
+.container {
+    border: 2px solid green;
+    background-color: yellow;
+}
+.inner {
+    border: 2px solid red;
+    background-color: powderblue;
+    /* transform: scale(0.75); */
+    /* transform: rotate(-45deg); */
+    /* transform:rotate(45deg) scale(0.75) translateX(100px); */
+}
+.inner:hover {
+    transform: rotate(45deg) scale(0.75);
+}
