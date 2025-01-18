@@ -1,0 +1,32 @@
+:root {
+    --primary-color:purple;
+    --secondary-color:blue;
+    --font-size:20px;
+}
+h1 {
+    color: var(--primary-color);
+}
+h5 {
+    background-color: var(--primary-color);
+}
+.box {
+    border: 2px solid var(--primary-color);
+    width: 400px;
+}
+.box p {
+    color: var(--primary-color);
+    font-size: var(--font-size);
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px calc(100% - 220px);
+    grid-template-rows: 300px;
+}
+.sidebar {
+    background-color: lightgray;
+}
+.content {
+    background-color: lightskyblue;
+}
