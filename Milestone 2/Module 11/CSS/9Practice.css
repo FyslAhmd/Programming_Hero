@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* shared style  */
+
+
+/* header  */
+/* nav bar  */
+.navbar {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+.nav-items {
+    display: flex;
+    gap: 34px;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-item a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.navbar-title {
+    color: rgb(58, 58, 58);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* banner section  */
+.banner {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    margin: 0 auto;
+}
+.banner-container-1 {
+    max-width: 580px;
+}
+.banner-title {
+    color: rgb(58, 58, 58);
+    font-size: 3.1rem;
+}
+.banner-description {
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.banner-btn {
+    border: none;
+    border-radius: 41px;
+    background-color: rgb(224, 44, 109);
+    padding: 10px 24px 10px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.banner-container-2 {
+    background-image: url("../assets/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container-2 img {
+    width: 100%;
+}
+
+/* sponsor section  */
+.sponsor-company {
+    max-width: 1110px;
+    margin: 70px auto 100px;
+    padding: 36px 60px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 60px;
+}
+
+/* main section  */
+/* product section  */
+.product-title {
+    color: rgb(58, 58, 58);
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-card {
+    max-width: 1050px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.product {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background-color: rgb(255, 255, 255);
+}
+.product img {
+    width: 100%;
+}
+.product-name {
+    color: rgb(24, 25, 31);
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 1rem 0 0.5rem 0;
+}
+.product-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.product-rating {
+    color: rgb(94, 99, 102);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+.product-rating i {
+    color: rgb(251, 130, 0);
+}
