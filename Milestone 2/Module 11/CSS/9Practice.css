@@ -12,10 +12,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-}
-
-/* shared style  */
-
+} 
 
 /* header  */
 /* nav bar  */
@@ -232,4 +229,49 @@ footer {
 }
 .social i {
     color: white;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-items {
+        display: none;
+    }
+    .nav-items {
+        gap: 15px;
+    }
+    .banner,
+    .join-container {
+        text-align: center;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .banner-title {
+        font-size: 1.75rem;
+    }
+    .banner-container-2 {
+        background: none;
+    }
+    .banner-container-2 img {
+        width: 70%;
+    }
+    .sponsor-company {
+        max-width: 280px;
+        justify-items: center;
+        margin: 70px auto 100px;
+        padding: 0;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .product-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .join-container {
+        padding: 20px;
+    }
 }
