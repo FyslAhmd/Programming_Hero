@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -23,19 +24,23 @@ body {
     align-items: center;
     margin: 50px auto;
 }
+
 .nav-items {
     display: flex;
     gap: 34px;
 }
+
 .nav-item {
     list-style: none;
 }
+
 .nav-item a {
     text-decoration: none;
     color: rgb(58, 58, 58);
     font-size: 1rem;
     font-weight: 600;
 }
+
 .navbar-title {
     color: rgb(58, 58, 58);
     font-size: 1.5rem;
@@ -50,19 +55,23 @@ body {
     gap: 130px;
     margin: 0 auto;
 }
+
 .banner-container-1 {
     max-width: 580px;
 }
+
 .banner-title {
     color: rgb(58, 58, 58);
     font-size: 3.1rem;
 }
+
 .banner-description {
     color: rgb(58, 58, 58);
     font-size: 1rem;
     font-weight: 600;
     margin: 1rem 0;
 }
+
 .banner-btn {
     border: none;
     border-radius: 41px;
@@ -72,11 +81,13 @@ body {
     font-size: 1rem;
     font-weight: 700;
 }
+
 .banner-container-2 {
     background-image: url("../assets/Circle\ design.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .banner-container-2 img {
     width: 100%;
 }
@@ -87,7 +98,7 @@ body {
     margin: 70px auto 100px;
     padding: 36px 60px;
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7, 1fr);
     gap: 60px;
 }
 
@@ -100,40 +111,88 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
+
 .product-card {
     max-width: 1050px;
     display: grid;
     margin: 0 auto;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
 .product {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background-color: rgb(255, 255, 255);
 }
+
 .product img {
     width: 100%;
 }
+
 .product-name {
     color: rgb(24, 25, 31);
     font-size: 1.75rem;
     font-weight: 500;
     margin: 1rem 0 0.5rem 0;
 }
+
 .product-price {
     color: rgba(0, 0, 0, 0.87);
     font-family: Inter;
     font-size: 1.5rem;
     font-weight: 400;
 }
+
 .product-rating {
     color: rgb(94, 99, 102);
     font-size: 1rem;
     font-weight: 700;
     padding: 1rem 0;
 }
+
 .product-rating i {
     color: rgb(251, 130, 0);
 }
+.see-more-product {
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.see-more-product i {
+    cursor: pointer;
+    margin: 2rem 7rem 6rem 1rem;
+}
+
+/* join now section  */
+.join-container {
+    max-width: 1110px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 6rem;
+    margin-bottom: 6rem;
+}
+.join-title {
+    color: rgb(10, 8, 38);
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+.join-description {
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.join-btn {
+    border: none;
+    background-color: rgb(224, 44, 109);
+    padding: 10px 24px 10px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* footer  */
