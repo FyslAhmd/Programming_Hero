@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": "$29/month",
+    "information": "For individuals starting their fitness journey.",
+    "features": [
+      "Access to all gym equipment",
+      "Locker room access",
+      "1 free fitness assessment",
+      "Standard customer support",
+      "Access during staffed hours only"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": "$49/month",
+    "information": "For regular gym-goers who want group classes too.",
+    "features": [
+      "Access to gym equipment",
+      "Unlimited group classes",
+      "2 free personal training sessions",
+      "Locker room & shower access",
+      "Access from 5AM to 11PM",
+      "Priority customer support"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": "$79/month",
+    "information": "For serious fitness enthusiasts with premium benefits.",
+    "features": [
+      "24/7 gym access",
+      "Unlimited group classes and personal training",
+      "Nutrition and fitness consultations",
+      "Free gym merchandise (t-shirt, bottle)",
+      "Access to VIP lounge and sauna",
+      "Dedicated fitness coach"
+    ]
+  }
+]
